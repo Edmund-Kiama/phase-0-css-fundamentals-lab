@@ -3,3 +3,45 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+#featured-property{
+  text-align: center;
+}
+
+#featured-property p{
+  width: 35%;
+  margin: auto;
+  background-color: aliceblue;
+}
+
+#details {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+
+#details a {
+  text-decoration: none;
+  cursor: pointer;
+}
